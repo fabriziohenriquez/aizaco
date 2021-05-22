@@ -1,0 +1,136 @@
+/* General Rules */
+a {
+  text-decoration: none;
+}
+
+.header-container, .mission-container, .btns-container, .footer-container, .monitoring-img-container, .blue-footer-container, .clients-img-container, .clients-main-container {
+  text-align: center;
+}
+
+.header-container a, .header-container i, .btns-container i {
+  color: #05AAD8;
+}
+
+.monitoring-img-container h1, .clients-img-container h1 {
+  padding: 7.5% 0;
+}
+
+.mission-container, .btns-container a, .monitoring-img-container, .blue-footer-container, .clients-img-container   {
+  color: #ffffff;
+}
+
+/* Header */
+.header-container {
+  margin: 1rem auto;
+}
+
+.header-container img {
+  width: 50%;
+  display: block;
+}
+
+.header-container .col-lg-4, .header-container img {
+  margin: auto;
+}
+
+.header-container i {
+  padding: 0 1%;
+}
+
+/* Mission Statement */
+.mission-container {
+  background-image: url("../images/aizaco-hero-img.png");
+}
+
+.mission-text-box {
+  padding: 7.5% 0;
+}
+
+/* Buttons */
+.btns-container .row {
+  margin: 1rem auto;
+}
+
+.btns-container i {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.btns-container .button {
+  background-color: #05AAD8;
+  display: inline-block;
+  padding: 15px 0;
+  width: 305px;
+}
+
+.btns-container .button:hover {
+  background-color: #59caf2;
+}
+
+.button p {
+  margin: 0;
+}
+
+.btns-container a {
+  font-weight: 500;
+}
+
+.btns-container a:hover {
+  text-decoration: none;
+}
+
+/* Footer for Index */
+.footer-container {
+  margin-top: 2rem;
+}
+
+.footer-container p {
+  font-size: 12px;
+}
+
+/* Monitoring System */
+.monitoring-img-container {
+  background-image: url("../images/monitor-water.png");
+}
+
+.monitor-main-container {
+  margin: 2rem auto;
+}
+
+.monitor-main-container img {
+  width: 35%;
+  margin: auto 25%;
+}
+
+/* Blue Footer */
+.blue-footer-container {
+  background-color: #05AAD8;
+  margin-top: 7.5rem;
+}
+
+.blue-footer-container p {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* Clients */
+.clients-img-container {
+  background-image: url("../images/clients-hero-img.png");
+}
+
+.clients-main-container {
+  margin-top: 2rem;
+}
+
+.clients-main-container img {
+  width: 8%;
+}
+
+/* Carousel Controls Color */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2305AAD8' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2305AAD8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
