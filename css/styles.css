@@ -156,6 +156,11 @@ a {
     margin-bottom: 8px;
   }
 
+  .btns-container .button {
+    margin: auto;
+    display: block;
+  }
+
   .clients-main-container img {
     width: 25%;
   }
