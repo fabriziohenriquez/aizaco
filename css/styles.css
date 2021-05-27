@@ -134,3 +134,38 @@ a {
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2305AAD8' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+
+  .contact-info {
+    margin-bottom: 1rem !important;
+  }
+
+  .mission-container {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .mission-text-box, .btns-container i {
+    padding: 0;
+  }
+
+  .btns-container i {
+    margin-bottom: 8px;
+  }
+
+  .clients-main-container img {
+    width: 25%;
+  }
+
+  .clients-img-container {
+    background-position-x: 70%;
+  }
+
+  .monitoring-img-container h1, .clients-img-container h1 {
+    padding: 20% 0;
+  }
+
+}
